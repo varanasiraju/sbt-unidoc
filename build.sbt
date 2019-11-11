@@ -20,5 +20,5 @@ lazy val root = (project in file(".")).
     bintrayRepository := "sbt-plugin-releases",
     scriptedSettings,
     scriptedLaunchOpts ++= Seq("-Xmx1024M", "-XX:MaxPermSize=256M", "-Dplugin.version=" + version.value),
-    scriptedBufferLog := false
+ 
   )
